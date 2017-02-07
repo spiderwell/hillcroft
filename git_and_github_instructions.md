@@ -2,15 +2,15 @@
 
 1. Using your terminal/command line, get inside the folder where your project files are kept: `cd /path/to/my/codebase`. 
 
-You cannot do this simply by opening the folder normally, you must do this with the command line/terminal. Do you need a refresher on using your command line/terminal? [I've compiled my favorite resources here.](http://stackforyourself.com/comp-sci/2016/10/01/command-line/)
+  You cannot do this simply by opening the folder normally, you must do this with the command line/terminal. Do you need a refresher on using your command line/terminal? [I've compiled my favorite resources here.](http://stackforyourself.com/comp-sci/2016/10/01/command-line/)
 
 2. Check if `git` is already initialized: `git status`
 
-If you get this error message: `fatal: Not a git repository (or any of the parent directories): .git`, that means the folder you are currently in is not being tracked by `git`. In that case, initialize `git` inside your project folder by typing `git init`, then going through the process of adding and committing your project. 
+  If you get this error message: `fatal: Not a git repository (or any of the parent directories): .git`, that means the folder you are currently in is not being tracked by `git`. In that case, initialize `git` inside your project folder by typing `git init`, then going through the process of adding and committing your project. 
 
-If you get another error message, read carefully what it says. Is it saying git isn't installed on your computer by saying that the word 'git' is not recognized? Is it saying that you're already in a folder or sub-folder where `git` is initialized? Google your error and/or output to understand it, and to figure out how to fix it.
+  If you get another error message, read carefully what it says. Is it saying git isn't installed on your computer by saying that the word 'git' is not recognized? Is it saying that you're already in a folder or sub-folder where `git` is initialized? Google your error and/or output to understand it, and to figure out how to fix it.
 
-Do you need a refresher on `git`? [Go through Codecademy's `git` course.](https://www.codecademy.com/courses/learn-git)
+  Do you need a refresher on `git`? [Go through Codecademy's `git` course.](https://www.codecademy.com/courses/learn-git)
 
 <hr>
 
