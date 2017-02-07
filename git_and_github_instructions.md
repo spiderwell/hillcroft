@@ -39,6 +39,7 @@ Copy the link in the input right beneath the title, it should look something lik
 1. Go back to your project in the terminal/command line. 
 
 2. In your terminal/command line, type `git remote add origin [copied web address]`. Example: 
+  
   `git remote add origin https://github.com/mindplace/test-repo.git`.
 
 3. Push your branch to Github: `git push origin master`. 
