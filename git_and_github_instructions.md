@@ -1,14 +1,17 @@
 # Make sure git is tracking your project.
 
-1. Using your terminal/command line, get inside the folder where your project files are kept: `cd /path/to/my/codebase`. 
+1. Using your terminal/command line, get inside the folder where your project files are kept: 
+  `cd /path/to/my/codebase`. 
 
-  You cannot do this simply by opening the folder normally, you must do this with the command line/terminal. Do you need a refresher on using your command line/terminal? [I've compiled my favorite resources here.](http://stackforyourself.com/comp-sci/2016/10/01/command-line/)
+  You cannot do this simply by opening the folder normally, you must do this with the command line/terminal. 
+  
+  Do you need a refresher on using your command line/terminal? [I've compiled my favorite resources here.](http://stackforyourself.com/comp-sci/2016/10/01/command-line/)
 
 2. Check if `git` is already initialized: `git status`
 
   If you get this error message: `fatal: Not a git repository (or any of the parent directories): .git`, that means the folder you are currently in is not being tracked by `git`. In that case, initialize `git` inside your project folder by typing `git init`, then going through the process of adding and committing your project. 
 
-  If you get another error message, read carefully what it says. Is it saying git isn't installed on your computer by saying that the word 'git' is not recognized? Is it saying that you're already in a folder or sub-folder where `git` is initialized? Google your error and/or output to understand it, and to figure out how to fix it.
+  If you get another error message, read carefully what it says. Is it saying `git` isn't installed on your computer by saying that the word 'git' is not recognized? Is it saying that you're already in a folder or sub-folder where `git` is initialized? Google your error and/or output to understand it, and to figure out how to fix it.
 
   Do you need a refresher on `git`? [Go through Codecademy's `git` course.](https://www.codecademy.com/courses/learn-git)
 
@@ -28,7 +31,7 @@
 
 # Connect your local project folder to your empty folder/repository on Github.
 
-The screen you should be seeing now on Github is titled 'Quick setup — if you’ve done this kind of thing before'. 
+The screen you should be seeing now on Github is titled **'Quick setup — if you’ve done this kind of thing before'**. 
 
 Copy the link in the input right beneath the title, it should look something like this: `https://github.com/mindplace/test-repo.git`. This is the web address that your local folder will use to push its contents to the remote folder on Github.
 
@@ -38,4 +41,4 @@ Copy the link in the input right beneath the title, it should look something lik
 
 3. Push your branch to Github: `git push origin master`. 
 
-4. Go back to the folder/repository screen on Github that you just left, and refresh it. The title 'Quick setup — if you’ve done this kind of thing before' should disappear, and you should see your files there. 
+4. Go back to the folder/repository screen on Github that you just left, and refresh it. The title **'Quick setup — if you’ve done this kind of thing before'** should disappear, and you should see your files there. 
