@@ -37,15 +37,15 @@ Do you need a refresher on git? [Go through Codecademy's `git` course.](https://
 
 The screen you should be seeing now on Github is titled **'Quick setup — if you’ve done this kind of thing before'**. 
 
-Copy the link in the input right beneath the title, it should look something like this: 
-  _https://github.com/yourname/yourproject.git_  
-This is the web address that your local folder will use to push its contents to the remote folder on Github.
+1. Copy the link in the input right beneath the title, it should look something like this: 
+    _https://github.com/yourname/yourproject.git_  
+    This is the web address that your local folder will use to push its contents to the remote folder on Github.
 
-1. Go back to your project in the terminal/command line. 
+2. Go back to your project in the terminal/command line. 
 
-2. In your terminal/command line, type `git remote add origin [copied web address]` 
+3. In your terminal/command line, type `git remote add origin [copied web address]` 
    Example: _git remote add origin https://github.com/yourname/yourproject.git_
 
-3. Push your branch to Github: `git push -u origin main` 
+4. Push your branch to Github: `git push -u origin main` 
 
-4. Go back to the folder/repository screen on Github that you just left, and refresh it. The title **'Quick setup — if you’ve done this kind of thing before'** should disappear, and you should see your files there. 
+5. Go back to the folder/repository screen on Github that you just left, and refresh it. The title **'Quick setup — if you’ve done this kind of thing before'** should disappear, and you should see your files there. 
