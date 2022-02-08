@@ -43,6 +43,6 @@ This is the web address that your local folder will use to push its contents to 
 
   Example: `git remote add origin https://github.com/mindplace/test-repo.git`
 
-3. Push your branch to Github: `git push origin main` 
+3. Push your branch to Github: `git push -u origin main` 
 
 4. Go back to the folder/repository screen on Github that you just left, and refresh it. The title **'Quick setup — if you’ve done this kind of thing before'** should disappear, and you should see your files there. 
