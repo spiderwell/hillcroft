@@ -5,7 +5,7 @@
 
   You cannot do this simply by opening the folder normally, you must do this with the command line/terminal. 
   
-  Do you need a refresher on using your command line/terminal? [I've compiled my favorite resources here.](http://stackforyourself.com/comp-sci/2016/10/01/command-line/)
+  Do you need a refresher on using your command line/terminal? [I've compiled my favorite resources here.](https://github.com/mindplace/stack-for-yourself/blob/master/docs/command_line_ui.md)
 
 2. Check if `git` is already initialized: `git status`
 
@@ -34,7 +34,7 @@
 The screen you should be seeing now on Github is titled **'Quick setup — if you’ve done this kind of thing before'**. 
 
 Copy the link in the input right beneath the title, it should look something like this: 
-`https://github.com/mindplace/test-repo.git` 
+`https://github.com/yourname/yourproject.git` 
 This is the web address that your local folder will use to push its contents to the remote folder on Github.
 
 1. Go back to your project in the terminal/command line. 
@@ -43,6 +43,6 @@ This is the web address that your local folder will use to push its contents to 
 
   Example: `git remote add origin https://github.com/mindplace/test-repo.git`
 
-3. Push your branch to Github: `git push origin master` 
+3. Push your branch to Github: `git push origin main` 
 
 4. Go back to the folder/repository screen on Github that you just left, and refresh it. The title **'Quick setup — if you’ve done this kind of thing before'** should disappear, and you should see your files there. 
