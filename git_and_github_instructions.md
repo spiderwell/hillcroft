@@ -8,8 +8,13 @@ Do you need a refresher on git? [Go through Codecademy's `git` course.](https://
   → Do you need a refresher on using your command line/terminal? [I've compiled my favorite resources here.](https://github.com/mindplace/stack-for-yourself/blob/master/docs/command_line_ui.md)
 
 2. Check if git is already initialized: `git status`  
-  → If you get this error message: _fatal: Not a git repository (or any of the parent directories): .git_, that means the folder you are currently in is not being tracked by git. In that case, initialize git inside your project folder by typing `git init`, then going through the process of adding and committing your project.  
-  → If you get another error message, read carefully what it says. Is it saying git isn't installed on your computer by saying that the word 'git' is not recognized? Is it saying that you're already in a folder or sub-folder where git is initialized? Google the error output to understand it, and to figure out how to fix it. 
+  → If you get this error message: _fatal: Not a git repository (or any of the parent directories): .git_, that means the folder you are currently in is not being tracked by git. In that case, initialize git inside your project folder and make your first commit:
+    ```bash
+    git init
+    git add .
+    git commit -m "initial commit"
+    ```
+    → If you get another error message, read carefully what it says. Is it saying git isn't installed on your computer by saying that the word 'git' is not recognized? Is it saying that you're already in a folder or sub-folder where git is initialized? Google the error output to understand it, and to figure out how to fix it. 
 
 <hr>
 
